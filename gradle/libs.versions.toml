@@ -30,6 +30,9 @@ composeUITestManifest = { module = "androidx.compose.ui:ui-test-manifest" }
 navigationCompose = { module = "androidx.navigation:navigation-compose", version = "2.7.0" }
 hiltNavigationCompose = { module = "androidx.hilt:hilt-navigation-compose", version = "1.0.0" }
 
+kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version = "1.8.10" }
+gradle = { module = "com.android.tools.build:gradle", version = "8.1.0" }
+
 [plugins]
 androidApplication = { id = "com.android.application", version = "8.1.0" }
 androidLibrary = { id = "com.android.library", version = "8.1.0" }
