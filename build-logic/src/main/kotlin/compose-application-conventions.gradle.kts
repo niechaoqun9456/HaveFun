@@ -1,5 +1,5 @@
 plugins {
-    id("android.application.conventions")
+    id("application-conventions")
 }
 
 android {
