@@ -8,6 +8,8 @@ android {
 
 dependencies {
     implementation(libs.coreKtx)
+    implementation(libs.hiltAndroid)
+    kapt(libs.hiltCompiler)
     implementation(libs.activityCompose)
     implementation(platform(libs.composeBom))
     implementation(libs.composeMaterial3)
