@@ -1,12 +1,12 @@
 [versions]
-activity = "1.7.2"
-lifecycleViewModel = "2.6.1"
+activity = "1.8.1"
+lifecycleViewModel = "2.6.2"
 hilt = "2.47"
 kotlin = "1.8.10"
-androidGradle = "8.1.0"
+androidGradle = "8.2.0"
 
 [libraries]
-coreKtx = { module = "androidx.core:core-ktx", version = "1.10.1" }
+coreKtx = { module = "androidx.core:core-ktx", version = "1.12.0" }
 appcompat = { module = "androidx.appcompat:appcompat", version = "1.6.1" }
 junit = { module = "junit:junit", version = "4.13.2" }
 androidxJunit = { module = "androidx.test.ext:junit", version = "1.1.5" }
@@ -14,7 +14,7 @@ espressoCore = { module = "androidx.test.espresso:espresso-core", version = "3.5
 hiltAndroid = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hiltCompiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version = "2.9.0" }
-okhttp = { module = "com.squareup.okhttp3:okhttp", version = "4.10.0" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version = "4.12.0" }
 kotlinSerializationConverter = { module = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter", version = "1.0.0" }
 kotlinSerializationJson = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version = "1.5.1" }
 lifecycleViewModelKtx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewModel" }
@@ -22,15 +22,15 @@ lifecycleViewModelCompose = { module = "androidx.lifecycle:lifecycle-viewmodel-c
 coroutineAndroid = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version = "1.6.4" }
 activityKtx = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
 activityCompose = { module = "androidx.activity:activity-compose", version.ref = "activity" }
-fragmentKtx = { module = "androidx.fragment:fragment-ktx", version = "1.6.1" }
-composeBom = { module = "androidx.compose:compose-bom", version = "2023.06.01" }
+fragmentKtx = { module = "androidx.fragment:fragment-ktx", version = "1.6.2" }
+composeBom = { module = "androidx.compose:compose-bom", version = "2023.10.01" }
 composeMaterial3 = { module = "androidx.compose.material3:material3" }
 composeUITooling = { module = "androidx.compose.ui:ui-tooling" }
 composeUIToolingPreview = { module = "androidx.compose.ui:ui-tooling-preview" }
 composeUITestJunit4 = { module = "androidx.compose.ui:ui-test-junit4" }
 composeUITestManifest = { module = "androidx.compose.ui:ui-test-manifest" }
-navigationCompose = { module = "androidx.navigation:navigation-compose", version = "2.7.0" }
-hiltNavigationCompose = { module = "androidx.hilt:hilt-navigation-compose", version = "1.0.0" }
+navigationCompose = { module = "androidx.navigation:navigation-compose", version = "2.7.5" }
+hiltNavigationCompose = { module = "androidx.hilt:hilt-navigation-compose", version = "1.1.0" }
 
 # plugins
 kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
