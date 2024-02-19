@@ -1,5 +1,3 @@
-import gradle.kotlin.dsl.accessors._108961cc6cb7ab5146ccaea9200d1b22.kapt
-
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
